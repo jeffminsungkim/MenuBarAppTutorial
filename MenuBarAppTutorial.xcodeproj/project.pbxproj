@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3E131124FA37EC00B2880F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E131024FA37EC00B2880F /* AppDelegate.swift */; };
+		2C3E131324FA37EC00B2880F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E131224FA37EC00B2880F /* ContentView.swift */; };
+		2C3E131524FA37ED00B2880F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E131424FA37ED00B2880F /* Assets.xcassets */; };
+		2C3E131824FA37ED00B2880F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E131724FA37ED00B2880F /* Preview Assets.xcassets */; };
+		2C3E131B24FA37ED00B2880F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E131924FA37ED00B2880F /* Main.storyboard */; };
+		2C3E132724FA37EE00B2880F /* MenuBarAppTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E132624FA37EE00B2880F /* MenuBarAppTutorialTests.swift */; };
+		2C3E133224FA37EE00B2880F /* MenuBarAppTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E133124FA37EE00B2880F /* MenuBarAppTutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C3E132324FA37EE00B2880F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3E130524FA37EB00B2880F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3E130C24FA37EB00B2880F;
+			remoteInfo = MenuBarAppTutorial;
+		};
+		2C3E132E24FA37EE00B2880F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C3E130524FA37EB00B2880F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3E130C24FA37EB00B2880F;
+			remoteInfo = MenuBarAppTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C3E130D24FA37EC00B2880F /* MenuBarAppTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBarAppTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3E131024FA37EC00B2880F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C3E131224FA37EC00B2880F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C3E131424FA37ED00B2880F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C3E131724FA37ED00B2880F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C3E131A24FA37ED00B2880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C3E131C24FA37ED00B2880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3E131D24FA37ED00B2880F /* MenuBarAppTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarAppTutorial.entitlements; sourceTree = "<group>"; };
+		2C3E132224FA37EE00B2880F /* MenuBarAppTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuBarAppTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3E132624FA37EE00B2880F /* MenuBarAppTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarAppTutorialTests.swift; sourceTree = "<group>"; };
+		2C3E132824FA37EE00B2880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3E132D24FA37EE00B2880F /* MenuBarAppTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuBarAppTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3E133124FA37EE00B2880F /* MenuBarAppTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarAppTutorialUITests.swift; sourceTree = "<group>"; };
+		2C3E133324FA37EE00B2880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C3E130A24FA37EB00B2880F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3E131F24FA37EE00B2880F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3E132A24FA37EE00B2880F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3E130424FA37EB00B2880F = {
+			isa = PBXGroup;
+			children = (
+				2C3E130F24FA37EC00B2880F /* MenuBarAppTutorial */,
+				2C3E132524FA37EE00B2880F /* MenuBarAppTutorialTests */,
+				2C3E133024FA37EE00B2880F /* MenuBarAppTutorialUITests */,
+				2C3E130E24FA37EC00B2880F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C3E130E24FA37EC00B2880F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3E130D24FA37EC00B2880F /* MenuBarAppTutorial.app */,
+				2C3E132224FA37EE00B2880F /* MenuBarAppTutorialTests.xctest */,
+				2C3E132D24FA37EE00B2880F /* MenuBarAppTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C3E130F24FA37EC00B2880F /* MenuBarAppTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				2C3E131024FA37EC00B2880F /* AppDelegate.swift */,
+				2C3E131224FA37EC00B2880F /* ContentView.swift */,
+				2C3E131424FA37ED00B2880F /* Assets.xcassets */,
+				2C3E131924FA37ED00B2880F /* Main.storyboard */,
+				2C3E131C24FA37ED00B2880F /* Info.plist */,
+				2C3E131D24FA37ED00B2880F /* MenuBarAppTutorial.entitlements */,
+				2C3E131624FA37ED00B2880F /* Preview Content */,
+			);
+			path = MenuBarAppTutorial;
+			sourceTree = "<group>";
+		};
+		2C3E131624FA37ED00B2880F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C3E131724FA37ED00B2880F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C3E132524FA37EE00B2880F /* MenuBarAppTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C3E132624FA37EE00B2880F /* MenuBarAppTutorialTests.swift */,
+				2C3E132824FA37EE00B2880F /* Info.plist */,
+			);
+			path = MenuBarAppTutorialTests;
+			sourceTree = "<group>";
+		};
+		2C3E133024FA37EE00B2880F /* MenuBarAppTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C3E133124FA37EE00B2880F /* MenuBarAppTutorialUITests.swift */,
+				2C3E133324FA37EE00B2880F /* Info.plist */,
+			);
+			path = MenuBarAppTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C3E130C24FA37EB00B2880F /* MenuBarAppTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3E133624FA37EE00B2880F /* Build configuration list for PBXNativeTarget "MenuBarAppTutorial" */;
+			buildPhases = (
+				2C3E130924FA37EB00B2880F /* Sources */,
+				2C3E130A24FA37EB00B2880F /* Frameworks */,
+				2C3E130B24FA37EB00B2880F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuBarAppTutorial;
+			productName = MenuBarAppTutorial;
+			productReference = 2C3E130D24FA37EC00B2880F /* MenuBarAppTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C3E132124FA37EE00B2880F /* MenuBarAppTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3E133924FA37EE00B2880F /* Build configuration list for PBXNativeTarget "MenuBarAppTutorialTests" */;
+			buildPhases = (
+				2C3E131E24FA37EE00B2880F /* Sources */,
+				2C3E131F24FA37EE00B2880F /* Frameworks */,
+				2C3E132024FA37EE00B2880F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C3E132424FA37EE00B2880F /* PBXTargetDependency */,
+			);
+			name = MenuBarAppTutorialTests;
+			productName = MenuBarAppTutorialTests;
+			productReference = 2C3E132224FA37EE00B2880F /* MenuBarAppTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C3E132C24FA37EE00B2880F /* MenuBarAppTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3E133C24FA37EE00B2880F /* Build configuration list for PBXNativeTarget "MenuBarAppTutorialUITests" */;
+			buildPhases = (
+				2C3E132924FA37EE00B2880F /* Sources */,
+				2C3E132A24FA37EE00B2880F /* Frameworks */,
+				2C3E132B24FA37EE00B2880F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C3E132F24FA37EE00B2880F /* PBXTargetDependency */,
+			);
+			name = MenuBarAppTutorialUITests;
+			productName = MenuBarAppTutorialUITests;
+			productReference = 2C3E132D24FA37EE00B2880F /* MenuBarAppTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C3E130524FA37EB00B2880F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = jeffminsungkim;
+				TargetAttributes = {
+					2C3E130C24FA37EB00B2880F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					2C3E132124FA37EE00B2880F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2C3E130C24FA37EB00B2880F;
+					};
+					2C3E132C24FA37EE00B2880F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2C3E130C24FA37EB00B2880F;
+					};
+				};
+			};
+			buildConfigurationList = 2C3E130824FA37EB00B2880F /* Build configuration list for PBXProject "MenuBarAppTutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C3E130424FA37EB00B2880F;
+			productRefGroup = 2C3E130E24FA37EC00B2880F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C3E130C24FA37EB00B2880F /* MenuBarAppTutorial */,
+				2C3E132124FA37EE00B2880F /* MenuBarAppTutorialTests */,
+				2C3E132C24FA37EE00B2880F /* MenuBarAppTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3E130B24FA37EB00B2880F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3E131B24FA37ED00B2880F /* Main.storyboard in Resources */,
+				2C3E131824FA37ED00B2880F /* Preview Assets.xcassets in Resources */,
+				2C3E131524FA37ED00B2880F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3E132024FA37EE00B2880F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3E132B24FA37EE00B2880F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3E130924FA37EB00B2880F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3E131324FA37EC00B2880F /* ContentView.swift in Sources */,
+				2C3E131124FA37EC00B2880F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3E131E24FA37EE00B2880F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3E132724FA37EE00B2880F /* MenuBarAppTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3E132924FA37EE00B2880F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3E133224FA37EE00B2880F /* MenuBarAppTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C3E132424FA37EE00B2880F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3E130C24FA37EB00B2880F /* MenuBarAppTutorial */;
+			targetProxy = 2C3E132324FA37EE00B2880F /* PBXContainerItemProxy */;
+		};
+		2C3E132F24FA37EE00B2880F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C3E130C24FA37EB00B2880F /* MenuBarAppTutorial */;
+			targetProxy = 2C3E132E24FA37EE00B2880F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C3E131924FA37ED00B2880F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3E131A24FA37ED00B2880F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C3E133424FA37EE00B2880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C3E133524FA37EE00B2880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2C3E133724FA37EE00B2880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MenuBarAppTutorial/MenuBarAppTutorial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MenuBarAppTutorial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MenuBarAppTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.jmsk.MenuBarAppTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C3E133824FA37EE00B2880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MenuBarAppTutorial/MenuBarAppTutorial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MenuBarAppTutorial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MenuBarAppTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.jmsk.MenuBarAppTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2C3E133A24FA37EE00B2880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenuBarAppTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.jmsk.MenuBarAppTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBarAppTutorial.app/Contents/MacOS/MenuBarAppTutorial";
+			};
+			name = Debug;
+		};
+		2C3E133B24FA37EE00B2880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenuBarAppTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.jmsk.MenuBarAppTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBarAppTutorial.app/Contents/MacOS/MenuBarAppTutorial";
+			};
+			name = Release;
+		};
+		2C3E133D24FA37EE00B2880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenuBarAppTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.jmsk.MenuBarAppTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MenuBarAppTutorial;
+			};
+			name = Debug;
+		};
+		2C3E133E24FA37EE00B2880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenuBarAppTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.jmsk.MenuBarAppTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MenuBarAppTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3E130824FA37EB00B2880F /* Build configuration list for PBXProject "MenuBarAppTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3E133424FA37EE00B2880F /* Debug */,
+				2C3E133524FA37EE00B2880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3E133624FA37EE00B2880F /* Build configuration list for PBXNativeTarget "MenuBarAppTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3E133724FA37EE00B2880F /* Debug */,
+				2C3E133824FA37EE00B2880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3E133924FA37EE00B2880F /* Build configuration list for PBXNativeTarget "MenuBarAppTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3E133A24FA37EE00B2880F /* Debug */,
+				2C3E133B24FA37EE00B2880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3E133C24FA37EE00B2880F /* Build configuration list for PBXNativeTarget "MenuBarAppTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3E133D24FA37EE00B2880F /* Debug */,
+				2C3E133E24FA37EE00B2880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C3E130524FA37EB00B2880F /* Project object */;
+}
